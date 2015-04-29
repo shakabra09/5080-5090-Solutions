@@ -1,0 +1,21 @@
+
+
+10.01\\
+Using equation 10.2.1 verify that $S = \sum\limits_{i=1}^n X_i$ is sufficient for $\mu$; where $X_i\sim$ POI($\mu$).\\
+\\
+Using equation 10.2.1 we need $f(x_1,...,x_n;\mu)$ and $f_s(s;\mu)$.\\
+\\
+ $f(x_1,...,x_n;\mu) = \frac{(exp(-n\mu)) \mu^(\sum\nolimits  x_i)}{\prod\nolimits x_i!}$\\
+
+And..\\
+\\
+$f_s(s;\mu) = \frac{(exp(-n\mu)) n^s\mu^s}{s!}$\\
+\\
+Taking the quotient of\\
+\\
+$\frac{f(x_1,...,x_n;\mu)}{f_s(s;\mu)}$\\
+\\
+will yield the result:\\
+\\
+$\frac{s!}{\prod\limits_{i=1}^n x_i ! n^s}$     for $s = \sum\nolimits x_i$; and $0$ otherwise.\\
+
